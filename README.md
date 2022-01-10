@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img src=".github/logo.png" alt="logo" />
+</h1>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+<!-- Badges -->
+![GitHub top language](https://img.shields.io/github/languages/top/kaiquecovo/template-nextjs-commitlint-husky-commitizen?color=%23718096)
+![GitHub last commit](https://img.shields.io/github/last-commit/kaiqueCovo/template-nextjs-commitlint-husky-commitizen?color=%231A202C)
+![GitHub repo size](https://img.shields.io/github/repo-size/kaiqueCovo/template-nextjs-commitlint-husky-commitizen?color=%23718096)
+![GitHub made by](https://img.shields.io/badge/made%20by-kaiqueCovo-%231A202C)
+</div>
+
+---
+
+<div align="center">
+  <a href="#dart-about">:dart:&nbsp;&nbsp;About</a> &nbsp; | &nbsp; 
+  <a href="#rocket-technologies">:rocket:&nbsp;&nbsp;Technologies</a> &nbsp; | &nbsp;
+  <a href="#white_check_mark-requirements">:white_check_mark:&nbsp;&nbsp;Requeriments</a> &nbsp; | &nbsp;
+  <a href="#checkered_flag-starting">:checkered_flag:&nbsp;&nbsp;Starting</a>
+</div>
+
+<br>
+
+## :dart: Sobre ##
+
+The project is a template [NextJS](https://nextjs.org/) from standardization with [Commitlint](https://commitlint.js.org/#/), [Husky](https://typicode.github.io/husky/#/) and [Commitizen](https://commitizen-tools.github.io/commitizen/).
+
+## :rocket: Technologies ##
+
+This project was developed with the following technologies:
+
+- [Next.js](https://nextjs.org/)
+- [Commitizen](https://commitizen-tools.github.io/commitizen/)
+- [Commitlint](https://commitlint.js.org/#/)
+- [Husky](https://typicode.github.io/husky/#/)
+
+## :white_check_mark: Requirements ##
+
+- [Git](https://git-scm.com/)
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/lang/en/)
+
+## :checkered_flag: Starting ##
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone this project
+$ git clone git@github.com:KaiqueCovo/template-nextjs-commitlint-husky-commitizen.git
+
+# Go into the repository
+$ cd template-nextjs-commitlint-husky-commitizen
+
+# Install dependencies
+$ yarn install
+
+# Run the commitizen
+$ yarn commit
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+Made with ♥  by [Kaique Covo](https://www.linkedin.com/in/kaique-covo-a46331147/) :wave:
